@@ -1,12 +1,12 @@
 window.KTV_DATA = [
   { id: "classic", icon: "🏆", tag: "經典 · 必點", title: "經典熱門", desc: "全場都會唱，長輩同學都能一起嗨的 KTV 必點歌。", songs: [
     { title: "晴天", artist: "周杰倫" },
-    { title: "七里香", artist: "周杰倫" },
+    { title: "我不難過", artist: "孫燕姿" },
     { title: "倔強", artist: "五月天" },
     { title: "突然好想你", artist: "五月天" },
-    { title: "聽海", artist: "張惠妹" },
-    { title: "小幸運", artist: "田馥甄" },
-    { title: "江南", artist: "林俊傑" },
+    { title: "人質", artist: "張惠妹" },
+    { title: "你就不要想起我", artist: "田馥甄" },
+    { title: "美人魚", artist: "林俊傑" },
     { title: "王妃", artist: "蕭敬騰" },
     { title: "突然的自我", artist: "伍佰" },
     { title: "浪人情歌", artist: "伍佰" },
