@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KTV 點歌指南｜台灣歌曲推薦</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <h1>🎤 KTV 點歌指南</h1>
+  <p>去唱歌不用再想「要點什麼」</p>
+  <input id="q" type="search" placeholder="搜尋歌名或歌手…" aria-label="搜尋">
+  <nav id="tabs"></nav>
+</header>
+<main>
+  <p id="desc"></p>
+  <ul id="list"></ul>
+</main>
+<footer>只列歌名與演唱者，資料維護於 data/songs.js</footer>
+<script src="data/songs.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
