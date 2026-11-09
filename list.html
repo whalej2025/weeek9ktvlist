@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>歌單｜KTV 點歌指南</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← 回首頁</a>
+  <section class="hero" style="padding-top:12px">
+    <span class="chip" id="tag"></span>
+    <h1 id="title" style="margin-top:10px"></h1>
+    <p id="desc"></p>
+  </section>
+  <input id="q" type="search" placeholder="🔍 搜尋歌名或歌手…" aria-label="搜尋">
+  <ul id="list"></ul>
+  <footer>歌單維護於 data/songs.js</footer>
+</div>
+<script src="data/songs.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
