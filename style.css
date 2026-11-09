@@ -1,0 +1,32 @@
+:root{--bg:#fbf6ec;--card:#fffdf8;--ink:#2a5d78;--text:#3d4a55;--muted:#7a8791;--yellow:#f8e5a8;--pink:#f7c6d0;--blue:#bfe3f0;--line:#2a5d78}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg) radial-gradient(#e9dfc9 1px,transparent 1px) 0 0/18px 18px;color:var(--text);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:20px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);font-weight:800}
+.brand small{display:block;color:var(--muted);font-weight:500;font-size:12px}
+.hero{padding:36px 0 24px}
+.hero h1{font-size:clamp(30px,6vw,46px);line-height:1.25;margin:0 0 12px;color:var(--ink)}
+.hero mark{background:linear-gradient(transparent 55%,var(--yellow) 55%);color:inherit}
+.hero p{max-width:520px;color:var(--muted);margin:0}
+h2{color:var(--ink);margin:28px 0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px;margin-top:18px}
+.card{position:relative;display:flex;flex-direction:column;gap:10px;padding:26px 20px 20px;background:var(--card);border:2px solid var(--line);border-radius:20px;box-shadow:6px 6px 0 #ddd6c6;text-decoration:none;color:inherit}
+.card::before{content:"";position:absolute;top:-12px;left:22px;width:84px;height:22px;background:var(--blue);transform:rotate(-3deg);opacity:.9}
+.card:nth-child(2)::before{background:var(--pink)}
+.card:nth-child(3)::before{background:var(--yellow)}
+.chip{align-self:flex-start;background:var(--ink);color:#fff;font-size:12px;font-weight:700;padding:3px 12px;border-radius:99px}
+.card h3{margin:0;font-size:22px;color:var(--ink)}
+.card p{margin:0;color:var(--muted);font-size:14px;flex:1}
+.pill{display:inline-block;background:#dff1f7;border:1px solid var(--blue);color:var(--ink);font-size:12px;font-weight:700;padding:2px 10px;border-radius:99px}
+.btn{align-self:flex-start;background:var(--yellow);color:var(--ink);border:2px solid var(--line);border-radius:12px;padding:7px 18px;font-weight:800;box-shadow:3px 3px 0 #ddd6c6}
+.card:hover{transform:translateY(-3px)}
+.soon{border-style:dashed;align-items:center;justify-content:center;text-align:center;color:var(--muted);box-shadow:none}
+.soon::before{display:none}
+.back{display:inline-block;margin:6px 0 4px;color:var(--ink);font-weight:700;text-decoration:none}
+#q{width:100%;padding:12px 16px;margin:10px 0 16px;border:2px solid var(--line);border-radius:14px;background:var(--card);color:var(--text);font-size:16px}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;background:var(--card);border:2px solid var(--line);border-radius:14px;box-shadow:3px 3px 0 #ddd6c6}
+li b{color:var(--ink);font-size:17px}
+li span{color:var(--muted);text-align:right}
+li.empty{justify-content:center;color:var(--muted)}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:30px 0}
